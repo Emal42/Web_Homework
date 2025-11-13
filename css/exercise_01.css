@@ -1,6 +1,34 @@
 .All_rows{
     background-color:#031725 ;
-    border: 2px solid red;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    width: auto;
+    min-width: 35%;
     
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    gap: 10pz;
+    row-gap:  10px;
+    padding-bottom: 20px;
+}
+.Row{
+    
+    display: flex;
+    flex-direction: column;
+padding: 10px;
+    
+    
+}
+.heading{
+    font-size:16px;
+    
+}
+.comment{
+    font-size: 16px;
+}
+.name{
+    align-self: flex-end;
 }
