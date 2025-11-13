@@ -32,3 +32,6 @@ padding: 10px;
 .name{
     align-self: flex-end;
 }
+main{
+    padding: 10px;
+}
